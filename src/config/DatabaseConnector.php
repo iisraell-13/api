@@ -7,11 +7,11 @@ class DatabaseConnector {
 
     public function __construct()
     {
-        $host = 'zipdb.ith13.com';
+        $host = 'localhost';
         $port = 3306;
         $db   = 'apidb_zd';
         $user = 'zipdev11';
-        $pass = 'ThiS1s4fUn4P!.';
+        $pass = '';
 
         try {
             $this->dbConnection = new \PDO(
